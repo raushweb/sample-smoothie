@@ -13,7 +13,7 @@ gulp.task("copy-html", () => {
 });
 
 gulp.task("build-js", () => {
-  return gulp.src("./src/assets/js/*.js")
+  return gulp.src("./src/js/*.js")
     .pipe(webpack({
       mode: 'development',
       output: {
